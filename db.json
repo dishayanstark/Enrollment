@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Dishayan Mandal",
+      "dept": "Computer Applications",
+      "course": "BCA",
+      "email": "dishayan@gmail.com",
+      "phone": "9687460325",
+      "id": "68a2"
+    },
+    {
+      "name": "Shyamal Mandal",
+      "dept": "Arts",
+      "course": "BA",
+      "email": "shyamal@gmail.com",
+      "phone": "9517532568",
+      "id": "b236"
+    },
+    {
+      "name": "Dipti Mondal",
+      "dept": "Arts",
+      "course": "BA",
+      "email": "dipti@gmail.com",
+      "phone": "6587413290",
+      "id": "f8aa"
+    }
+  ]
+}

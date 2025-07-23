@@ -1,0 +1,42 @@
+.home h2{
+    margin-bottom: 20px;
+    padding: 6px;
+    width: 100%;
+    background-image: url("../../public/images/White.jpg");
+    background-size: cover;
+}
+.home{
+    background: linear-gradient(to top right,#7bd6f5,lightseagreen,#3a71d6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30%;
+    padding: 40px;
+    margin: 60px auto;
+    box-shadow: 0px 4px 10px black;
+}
+ul{
+    padding: 10px;
+    margin-left: 20px;
+}
+.box{
+    background-image: url("../../public/images/White.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px black;
+    padding: 5px;
+    width: 100%;
+}
+@keyframes shine{
+    0%{background-position: -200% center;}
+    100%{background-position: 200% center;}
+}
+.shiny{
+    position: relative;
+    background: linear-gradient(120deg, #ffffff10 25%, #ffffff55 50%, #ffffff10 75%);
+    background-size: 200% auto;
+    animation: shine 2s linear infinite;
+    border-radius: 12px;
+}
