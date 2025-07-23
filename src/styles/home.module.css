@@ -29,14 +29,3 @@ ul{
     padding: 5px;
     width: 100%;
 }
-@keyframes shine{
-    0%{background-position: -200% center;}
-    100%{background-position: 200% center;}
-}
-.shiny{
-    position: relative;
-    background: linear-gradient(120deg, #ffffff10 25%, #ffffff55 50%, #ffffff10 75%);
-    background-size: 200% auto;
-    animation: shine 2s linear infinite;
-    border-radius: 12px;
-}
